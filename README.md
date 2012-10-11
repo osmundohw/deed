@@ -42,13 +42,13 @@ the same workflows to achieve whatever goals. This is an artificial
 and shallow viewpoint that the author has rejected as limiting and
 unnecessary.
 
-Again, in this documentation, the phrase “_Native Microsoft_” does
-not imply that _Cygwin_ is not installed or cannot be used. It
-simply implies that the **Perl** installation being utilized (the
-Perl to which this package is installed) is either of the “Native
-Microsoft” variety or is of the Cygwin variety. Considerable effort
-has been made to ensure that this module will succeed in its modest
-intended use, in either case.
+Again, in this documentation, the phrase “Native Microsoft” does not
+imply that _Cygwin_ is not installed (or cannot be used). It simply
+implies that the **Perl** installation being utilized (the Perl to
+which this package is installed) is either of the “Native Microsoft”
+variety or is of the “Cygwin” variety. Considerable effort has been
+made to ensure that this module will succeed in its modest intended
+use, in *either* case.
 
 ### How
 
@@ -59,6 +59,7 @@ an Env Dump to STDOUT.
 #### Sub-modules
 
   + Devel::ExternalTools::MSW::CanUseCygwin
+
 > Detects a Cygwin installation using a probe into the MSWindows
   Registry. This is obviously unnecessary in the context of *this*
   package where creating the Env Dump is being done under
